@@ -1,0 +1,21 @@
+.card {
+    display: block;
+    padding: $base-paddding;
+    border: $base-border-thinknes solid #ddd;
+    box-shadow: $base-box-shadow;
+
+    .card-title {
+        font-size: $base-font-size;
+        padding-bottom: $base-paddding;
+        font-weight: bold;
+    }
+
+    .card-body {
+        font-size: $base-font-size;
+
+        a {
+            text-decoration: underline;
+        }
+    }
+}
+
