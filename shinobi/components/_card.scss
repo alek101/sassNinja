@@ -1,8 +1,11 @@
+@use 'sass:math';
+
 .card {
     display: block;
     padding: $base-paddding;
     border: $base-border-thinknes solid #ddd;
     box-shadow: $base-box-shadow;
+    border-radius: math.div($base-border-radius, 4);
 
     .card-title {
         font-size: $base-font-size;
@@ -18,4 +21,6 @@
         }
     }
 }
+
+@debug "hello ninjas";
 
