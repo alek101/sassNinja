@@ -2,14 +2,14 @@
 
 .card {
     display: block;
-    padding: $base-paddding;
+    padding: $base-padding;
     border: $base-border-thinknes solid #ddd;
     box-shadow: $base-box-shadow;
     border-radius: math.div($base-border-radius, 4);
 
     .card-title {
         font-size: $base-font-size;
-        padding-bottom: $base-paddding;
+        padding-bottom: $base-padding;
         font-weight: bold;
     }
 
