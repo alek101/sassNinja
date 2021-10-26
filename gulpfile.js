@@ -11,7 +11,7 @@ function buildStyles() {
 }
 
 function watchTask() {
-    watch(['shinobi/**/*.scss'], buildStyles)
+    watch(['shinobi/**/*.scss', '*.html'], buildStyles)
 }
 
 exports.default = series(buildStyles, watchTask)
