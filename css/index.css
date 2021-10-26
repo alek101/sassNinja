@@ -69,11 +69,11 @@ hr {
   }
 }
 .text-primary {
-  color: #326dee;
+  color: indigo;
 }
 
 .bg-primary {
-  background-color: #326dee;
+  background-color: indigo;
 }
 
 .text-secondary {
@@ -178,14 +178,14 @@ hr {
 
 .card {
   display: block;
-  padding: 0.75rem;
-  border: 1px solid #ddd;
+  padding: 1rem;
+  border: 3px solid #ddd;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
 }
 .card .card-title {
   font-size: 1rem;
-  padding-bottom: 0.75rem;
+  padding-bottom: 1rem;
   font-weight: bold;
 }
 .card .card-body {
@@ -200,7 +200,7 @@ hr {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background-color: #e2e2e2;
 }
@@ -210,12 +210,12 @@ hr {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
-  background-color: #326dee;
+  background-color: indigo;
 }
 .btn-primary:hover {
-  background-color: #4a7ef0;
+  background-color: #5a009c;
 }
 
 .btn-complement-primary {
@@ -223,14 +223,14 @@ hr {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
-  background-color: #326dee;
-  color: #fae7bf;
+  background-color: indigo;
+  color: #7cff1c;
 }
 .btn-complement-primary:hover {
-  color: #326dee;
-  background-color: #fae7bf;
+  color: indigo;
+  background-color: #7cff1c;
 }
 
 .btn-secondary {
@@ -238,7 +238,7 @@ hr {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background-color: #1ac888;
 }
@@ -251,7 +251,7 @@ hr {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background-color: #d32752;
 }
@@ -264,7 +264,7 @@ hr {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background-color: #f6c31c;
 }
@@ -277,10 +277,10 @@ hr {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background-color: #fff;
-  border: 1px #ffa600;
+  border: 3px #ffa600;
 }
 .btn-outlined-orange:hover {
   background-color: #ffa600;
@@ -291,10 +291,10 @@ hr {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background-color: #fff;
-  border: 1px #9900ff;
+  border: 3px #9900ff;
 }
 .btn-outlined-purple:hover {
   background-color: #9900ff;
@@ -305,7 +305,7 @@ hr {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background-color: #9900ff;
   color: #c2ff99;
@@ -324,18 +324,18 @@ hr {
 }
 
  .navbar-primary {
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
  .navbar-primary .site-title {
   font-size: 1.5rem;
 }
 .navbar-primary {
-  background-color: #326dee;
+  background-color: indigo;
 }
 
 .p-2 {
-  padding: 1.5rem;
+  padding: 2rem;
 }
 
 .mr-3 {

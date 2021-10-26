@@ -4,14 +4,14 @@ const purgecss = require('gulp-purgecss')
 
 function buildStyles() {
     // return src('index.scss')
-    return src('shinobi/**/*.scss')
+    return src('sass/**/*.scss')
         .pipe(sass())
         .pipe(purgecss({ content: ['*.html'] }))
         .pipe(dest('css'))
 }
 
 function watchTask() {
-    watch(['shinobi/**/*.scss', '*.html'], buildStyles)
+    watch(['sass/**/*.scss', '*.html'], buildStyles)
 }
 
 exports.default = series(buildStyles, watchTask)
